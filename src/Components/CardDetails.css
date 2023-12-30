@@ -1,0 +1,42 @@
+.cardDetail{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0px;
+}
+
+.cardDetail img{
+    height: 350px;
+    width: 350px;
+}
+
+.brand{
+    color: blue;
+}
+
+.backBtn{
+    width: 100%;
+    height: 50px;
+}
+
+.backBtn button{
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: lightslategray;
+    margin: 5px 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.backBtn button:hover{
+    transform: scale(1.1);
+}
+
+.starContainer .stars {
+    color: gold;
+}

@@ -1,0 +1,22 @@
+.nav{
+    height: 80px;
+    width: 100%;
+    background-color: lightblue;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+ul li{
+    list-style: none;
+}

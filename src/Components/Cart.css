@@ -1,0 +1,14 @@
+.cardCart{
+    /* width: 100%; */
+    height: 200px;
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cardCart img{
+    height: 80%;
+    width: 200px;
+}
