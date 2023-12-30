@@ -25,6 +25,7 @@ function App() {
     <div className="App">
       <Router>
         <NavBarComp product={product} />
+        <h1>This is app component</h1>
         <Routes>
           <Route path='/' element={<Home handleProductCart={handleProductCart} />} />
           <Route path='/about' element={<About />} />
